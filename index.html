@@ -22,15 +22,14 @@ small{display:block;margin-top:5px;color:#636e72}
 </head>
 <body>
 
-<h1>🏝️ IMBROS: THE VACATION RPG</h1>
+<h1>🏝️ Ιμβρος: 2026 Ιούλιος</h1>
 
 <div class="weather">
 <h3>🌤️ Forecast Oracle</h3>
 <div>Καιρός Ίμβρου: ιδανικός για βουτιές, υπερφαγία και λανθασμένες αποφάσεις τύπου "μία μπύρα ακόμα".</div>
-<small>Στο production version συνδέεται με Open Meteo API.</small>
 </div>
 
-<div class="progressWrap"><div id="bar">0% ολοκλήρωση αποστολής</div></div>
+<div class="progressWrap"><div id="bar">0% </div></div>
 
 <div class="tabs">
 <button onclick="show('d1')">🌙 Day 1</button>
@@ -60,6 +59,9 @@ small{display:block;margin-top:5px;color:#636e72}
 <div class="quest"><label><input class="task" type="checkbox"> <b>10:30 Άρωμα ρίγανης και νοσταλγίας</b></label>
 <small>🌿 Mood activated: Φτάσαμε στο νησάκι.</small></div>
 
+<div class="quest"><label><input class="task" type="checkbox"> <b>11:30 Είσαι σπίτι και κοιμάσαι</b></label>
+<small>🏠 Check in : done! Το σύστημα τίθεται σε λειτουργία αναστολής.</small></div>
+
 <div class="quest"><label><input class="task" type="checkbox"> <b>18:00 Κέφαλος</b></label>
 <p>Δεν είναι μπάνιο. Είναι η επίσημη τελετή έναρξης των διακοπών.</p></div>
 
@@ -69,26 +71,27 @@ small{display:block;margin-top:5px;color:#636e72}
 
 <div id="d2" class="day">
 <h2>☀️ Side Quest Expansion Pack</h2>
-<div class="quest"><label><input class="task" type="checkbox"> Κάρδαμο</label><small>Άραγμα και απόλαυση. </small></div>
-<div class="quest"><label><input class="task" type="checkbox"> Παναγία για κασέρλι και λαχματζούν</label><small>🥙 Boss fight: Αντίσταση στην υπερπαραγγελία. Difficulty: Impossible.</small></div>
-<div class="quest"><label><input class="task" type="checkbox"> Σούπερ μάρκετ</label><small>🛒 Αποστολή: αγόρασε μόνο όσα χρειάζεσαι. Κανείς δεν τα κατάφερε ποτέ.</small></div>
-<div class="quest"><label><input class="task" type="checkbox"> Σπλια για ηλιοβασίλεμα</label><small>📸 Όλοι μετατρέπονται σε φωτογράφους National Geographic.</small></div>
-<div class="quest"><label><input class="task" type="checkbox"> Κάστρο βράδυ</label><small>🍟 Πατάτα, μπύρα και αποφάσεις ζωής που δεν θα υλοποιηθούν ποτέ.</small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 08.30 Ξύπνημα</label><small>Αισιόδοξος στόχος (πραγματικότητα 09.30). </small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 10.30 Κάρδαμο</label><small>Άραγμα και απόλαυση. </small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 15.00 Παναγία για κασέρλι και λαχματζούν</label><small>🥙 Boss fight: Αντίσταση στην υπερπαραγγελία. Difficulty: Impossible.</small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 16.00 Σούπερ μάρκετ</label><small>🛒 Αποστολή: αγόρασε μόνο όσα χρειάζεσαι. Κανείς δεν τα κατάφερε ποτέ.</small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 19.30 Σπλια για ηλιοβασίλεμα</label><small>📸 Όλοι μετατρέπονται σε φωτογράφους National Geographic.</small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 21.00 Κάστρο βράδυ</label><small>🍟 Πατάτα, μπύρα και αποφάσεις ζωής που δεν θα υλοποιηθούν ποτέ.</small></div>
 </div>
 
 <div id="d3" class="day">
 <h2>💦 The Water Temple Arc</h2>
-<div class="quest"><label><input class="task" type="checkbox"> Καταρράκτες</label><small>Η στιγμή που όλοι θυμούνται ότι υπάρχουν ανηφόρες.</small></div>
-<div class="quest"><label><input class="task" type="checkbox"> Μάρμαρο ή Σιναπίδα</label><small>Δεν υπάρχει απάντηση. Θα ζήσουμε τη στιγμή και θα αποφασιστεί τότε."</small></div>
-<div class="quest"><label><input class="task" type="checkbox"> Παναγία βράδυ</label><small>🍺🍯 Το μόνο μέρος που χαλβάς και μπακλαβάς θεωρούνται ισορροπημένη διατροφή.</small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 10.00 Καταρράκτες</label><small>Η στιγμή που όλοι θυμούνται ότι υπάρχουν ανηφόρες.</small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 13.00 Μάρμαρο ή Σιναπίδα</label><small>Δεν υπάρχει απάντηση. Θα ζήσουμε τη στιγμή και θα αποφασιστεί τότε."</small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 21.00 Παναγία βράδυ</label><small>🍺🍯 Το μόνο μέρος που χαλβάς και μπακλαβάς θεωρούνται ισορροπημένη διατροφή.</small></div>
 </div>
 
 <div id="d4" class="day">
 <h2>🍮 Final Chapter</h2>
-<div class="quest"><label><input class="task" type="checkbox"> Εκκλησία</label><small>Επιβάλλεται, ώστε να σηματοδοτήσει την επίσημη άφιξη μας στο χωριό.</small></div>
-<div class="quest"><label><input class="task" type="checkbox"> Κέφαλος τελευταία βουτιά</label><small>Σκέψη που ενεργοποιείται αυτόματα: "του χρόνου περισσότερες μέρες".</small></div>
-<div class="quest"><label><input class="task" type="checkbox"> Μαλεμπί</label><small>Το μαλεμπί δεν είναι γλυκό. Είναι κατάσταση συνείδησης.</small></div>
-<div class="quest"><label><input class="task" type="checkbox"> Βαλίτσα επιστροφής</label><small>Η βαλίτσα περιέχει 60% λύπη και 40% ρούχα.</small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 09.00 Εκκλησία</label><small>Επιβάλλεται, ώστε να σηματοδοτήσει την επίσημη άφιξη μας στο χωριό.</small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 14.00 Κέφαλος τελευταία βουτιά</label><small>Σκέψη που ενεργοποιείται αυτόματα: "του χρόνου περισσότερες μέρες".</small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 18.00 Μαλεμπί</label><small>Το μαλεμπί δεν είναι γλυκό. Είναι κατάσταση συνείδησης.</small></div>
+<div class="quest"><label><input class="task" type="checkbox"> 20.00 Βαλίτσα επιστροφής</label><small>Η βαλίτσα περιέχει 60% λύπη και 40% ρούχα.</small></div>
 </div>
 
 <div id="facts" class="day">
